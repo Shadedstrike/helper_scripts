@@ -34,4 +34,7 @@ chmod 700 ~/.ssh &&
 echo "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC1Hjak68C83BkjFKsOf4GmSzVPYg88DNqXUM6bUI8aYFE1HBUMLIQ9EJMB3658GGhtJUlEvV7eeZ9CF40P7QoiU0eZ5HgDAeMXKdMtAXJcI9pmOn2ycoVOOCtazHRB0voWw+BrHTSChoj27IjFxbdZXRK81bEprQqJ+rxTygl/+K5gnkmxzcMemQI7MbN4JZ8LgAbdCmWcztRwhCAZSUP7SXOuvxlNox+q4IqPjNKV2nsFTobRMES1LgtAMEgAle2dXHZyhYYxAs4jVl0oKCy02F9cn+KRyJKyetlxqBcq0gzaxW7Hfucr9ImIEkcqbbw3aqL3yZQKwYbB0JcJxjDcYp99MvlyYCPMfguBX4clSJPnPN4yWiUK2CO0FCZgnPtJi+n/bQhzYVZQ/hebIQwdgpCfnnuvvXHJBuCohMWY86adOM1mbmaL9f7J6X290dtR1l3c5DZ76XSOjZPVgjLptG7p5cunP+FA+CyVoZTu1ALm2xPD1VdPXGsxatRwZUc=" >> ~/.ssh/authorized_keys &&
 chmod 600 ~/.ssh/authorized_keys
 
+sudo systemctl enable ssh
+sudo systemctl start ssh
+sudo systemctl status ssh
 
